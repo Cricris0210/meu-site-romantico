@@ -1,0 +1,60 @@
+/* reset básico */
+body {
+    
+  font-family: 'Dancing Script', cursive;
+  background: black;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* cartão principal */
+.card {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgb(255, 252, 242);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* título */
+.card h1 {
+   font-family: 'Allura', cursive;
+  font-size: 48px;     
+  color: #7b0000; 
+ 
+}
+/* imagem */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+/* texto */
+.card p {
+    
+  font-size: 20px;
+  color: #333;
+
+}
+
+/* link */
+.card a {
+  
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #7b0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+/* efeito ao passar o mouse */
+.card a:hover {
+  background: #c1121f;
+}
